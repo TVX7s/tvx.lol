@@ -601,7 +601,7 @@
                 payload.embeds = [{
                     image: { url: imageUrl },
                     color: 65280,
-                    footer: { text: `سكربت عشوائي تلقائي – ${source} – حقوق RTX` }
+                    footer: { text: `سكربت عشوائي تلقائي – ${source} – حقوق tvx.lol` }
                 }];
             }
 
@@ -612,7 +612,7 @@
                     body: JSON.stringify(payload)
                 });
                 if (res.ok || res.status === 204) {
-                    showNotification("تم إرسال سكربت RScript بنجاح");
+                    showNotification("تم إرسال سكربت");
                 } else {
                     showNotification("فشل إرسال الويب هوك");
                 }
